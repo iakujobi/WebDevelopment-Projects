@@ -1,0 +1,33 @@
+h1 {
+	color: #ff8000; /*hexadecimal*/
+
+}
+
+li {
+	color: rgba(12,150,99,.6);  /*RGBA: The last digit (a: alpha) is for transparency*/
+}
+
+h4 {
+	color: rgb(0,255,255); /*RGB*/
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	/*border: 5px solid purple;*/
+}
+
+/*Boarders have 3 parts: width, color and style*/
+
+h4 {
+	background: rgb(255,100,30);
+}
+
+body {
+	background: url(https://images.homedepot-static.com/productImages/3c9e8c98-c56d-4b64-be76-f4cf877de597/svn/beige-designer-stencils-stencils-fs024-64_600.jpg);
+	background-repeat: no-repeat; /*use if your image happens to repeat over itself, horizontally and vertically*/
+	background-size: cover; /*use if you want your image to cover the entire screen. (when the image is small)*/
+}
+
+
+
+

@@ -1,0 +1,74 @@
+/*Font-family*/
+
+p {
+	font-family: Arial;
+	/*font-family: "Arial";*/
+}
+
+h1{
+	font-family: Georgia;
+}
+
+/*font-size*/
+
+body {
+	font-size: 9px;
+}
+
+h1 {
+	font-size: 5.0em;
+}
+
+p {
+	/*font-size: 40px;*/
+	font-size: 2.0em;
+}
+
+span {
+	/*this (em) is dynamic*/
+	font-size: 2.0em;
+}
+
+/*font-weight*/
+
+p {
+	font-weight: bold;
+	/*font-weight: normal;*/
+	/*font-weight: 500;*/
+}
+
+/*line-height*/
+
+p {
+	line-height: 1.5;
+}
+
+/*text-align*/
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+/*text-decoration*/
+
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}
+
+/*google fonts*/
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: 'Indie Flower', cursive;
+}

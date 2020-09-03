@@ -1,0 +1,44 @@
+<!-- radio button: another type of input tag (it's similar to a checkbox). Allows user to check or uncheck it for multiple options (CHECKBOX) while a (RADIO) is static. used when user has only one choose (like gender)
+     select tag: how we get drop-down menu 
+	 textarea tag: how we create text input that are multiple lines long -->
+
+	<!--  below (html + tab): prompts our HTML boilerplate -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+	<p>Do you prefer cats or dogs?</p>
+
+<form>
+	<label for="dogs">Dogs: </label>
+	<input id="dogs" type="radio" name="petChoice" value="DOGS">
+
+	<label for="cats">Cats: </label>
+	<input id="cats" type="radio" name="petChoice" value="CATS">
+
+	<p>What's your current mood?</p>
+	<select name="mood">
+		<option value="Happy">:)</option>
+		<option value="Neutral">:|</option>
+		<option value="Sad">:(</option>
+	</select>
+
+	
+
+	<textarea name="paragraph" rows="10" cols="50"></textarea>
+
+	<button>Go!</button>
+</form>
+
+
+<!-- CHECKBOX
+
+<input type="checkbox" name=""> -->
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+/* . (dot) is for class;
+(#) is for id */
+.winner {
+   color: green;
+}
+
+#p1:hover, #p2:hover {
+   background-color: blue;
+}
+
+#reset:hover {
+   background-color: red;
+}

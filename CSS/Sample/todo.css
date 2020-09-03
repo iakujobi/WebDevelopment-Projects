@@ -1,0 +1,18 @@
+body {
+	/*example of Element Selector*/
+	background: orange;
+}
+
+li {
+	border: 2px solid red
+}
+
+#special {
+	/*example of an ID Selector*/
+	color: yellow;
+}
+
+.completed {
+	/*example of a class selector*/
+	text-decoration: line-through;
+}
